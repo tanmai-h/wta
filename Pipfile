@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask = "*"
+tensorflow = "==1.4"
+keras = "==2.1.5"
+pillow = "*"
+matplotlib = "*"
+
+[requires]
+python_version = "3.6"
